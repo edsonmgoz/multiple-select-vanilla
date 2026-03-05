@@ -10,7 +10,7 @@
 
 <body>
     <header class="header">
-        <h1>LazyGit Demo video</h1>
+        <h1>LazyGit Demo video pro</h1>
         <p>Simple vanilla UI to generate clean commits + tags.</p>
     </header>
 
@@ -26,6 +26,11 @@
         </section>
 
         <section class="row">
+            <label for="section">section:</label>
+            <select id="section" multiple size="8"></select>
+        </section>        
+
+        <section class="row">
             <button id="btn-log-sm" type="button">Log selection small</button>
             <button id="btn-theme-sm" type="button">Toggle theme small</button>
         </section>
@@ -36,6 +41,7 @@
         </section>
 
         <pre id="output" class="output"></pre>
+        <pre id="input-sm" class="input-sm"></pre>
     </main>
 
     <script src="./app.js"></script>
