@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LazyGit Demo - Tags & History</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>LazyGit Demo Playground</h1>
+        <p>Simple vanilla UI to generate clean commits + tags.</p>
+    </header>
+
+    <main class="card">
+        <section class="row">
+            <label for="filter">Filter options:</label>
+            <input id="filter" type="text" placeholder="Type to filter..." />
+        </section>
+
+        <section class="row">
+            <label for="country">Countries (multiple):</label>
+            <select id="country" multiple size="8"></select>
+        </section>
+
+        <section class="row">
+            <button id="btn-log" type="button">Log selection</button>
+            <button id="btn-theme" type="button">Toggle theme</button>
+        </section>
+
+        <pre id="output" class="output"></pre>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
